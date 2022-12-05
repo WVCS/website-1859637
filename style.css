@@ -1,3 +1,39 @@
-body {
+body{
+  background-color: darkseagreen;
+}
 
+h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: monaco;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px #52796f;
+}
+
+h2{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: monaco;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px #52796f;
+}
+
+img{
+  width: 30%;
+  border: solid white 6px;
+}
+
+img:hover{
+  border: dotted #52796f 6px;;
+}
+
+a{
+  color: white;
+  text-align: center;
+  font-size: 24px;
+  font-family: monaco;
+  letter-spacing: 3px;
+  text-shadow: 2px 2px #52796f;
 }
