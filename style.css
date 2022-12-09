@@ -37,3 +37,27 @@ a{
   letter-spacing: 3px;
   text-shadow: 2px 2px #52796f;
 }
+
+nav{
+  list-style-type: none;
+  position: fixed;
+  background-color: #52796f;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
+li{
+  display: inline;
+  padding: 20px;
+  float: left;
+}
+
+li:hover{
+  background-color: #354f52;
+}
+
+a:hover{
+  text-shadow: 2px 2px #52796f;
+  color: #cad2c5;
+}
