@@ -36,6 +36,7 @@ a{
   font-family: monaco;
   letter-spacing: 3px;
   text-shadow: 2px 2px #52796f;
+  text-decoration: none;
 }
 
 nav{
