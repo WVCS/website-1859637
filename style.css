@@ -2,15 +2,6 @@ body{
   background-color: darkseagreen;
 }
 
-h1{
-  color: white;
-  text-align: center;
-  font-size: 50px;
-  font-family: monaco;
-  letter-spacing: 4px;
-  text-shadow: 3px 3px #52796f;
-}
-
 h2{
   color: white;
   text-align: center;
@@ -19,14 +10,29 @@ h2{
   letter-spacing: 4px;
   text-shadow: 3px 3px #52796f;
 }
+h1{
+  color: white;
+  text-align: center;
+  font-size: 50px;
+  font-family: monaco;
+  letter-spacing: 4px;
+  text-shadow: 3px 3px #52796f;
+  transition: all 1s ease;
+}
+
+h1:hover{
+  letter-spacing: 1px;
+}
 
 img{
   width: 30%;
-  border: solid white 6px;
+  border: solid white 4px;
+  transition: all 1s ease;
 }
 
 img:hover{
-  border: dotted #52796f 6px;;
+  border: dotted #52796f 4px;
+  width: 35%;
 }
 
 a{
@@ -37,6 +43,7 @@ a{
   letter-spacing: 3px;
   text-shadow: 2px 2px #52796f;
   text-decoration: none;
+  transition: all 1s ease; 
 }
 
 nav{
@@ -51,7 +58,8 @@ nav{
 li{
   display: inline;
   padding: 20px;
-  float: left;
+  float: left; 
+  transition: all 1s ease; 
 }
 
 li:hover{
@@ -60,5 +68,6 @@ li:hover{
 
 a:hover{
   text-shadow: 2px 2px #52796f;
+  letter-spacing: 5px;
   color: #cad2c5;
 }
